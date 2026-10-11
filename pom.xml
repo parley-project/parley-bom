@@ -47,7 +47,7 @@
   <properties>
     <!-- One line per module. Keep these in step with each module's released version. -->
     <parley-core.version>1.0.0</parley-core.version>
-    <parley-io.version>1.0.0-SNAPSHOT</parley-io.version>
+    <parley-io.version>1.0.0</parley-io.version>
     <parley-net.version>1.0.0-SNAPSHOT</parley-net.version>
     <parley-ftp.version>1.0.0-SNAPSHOT</parley-ftp.version>
     <parley-dns.version>1.0.0-SNAPSHOT</parley-dns.version>
