@@ -22,7 +22,8 @@
     </dependency>
 
   Each BOM release is a tested-together set. Release a new BOM whenever any module
-  version below changes. Lists ONLY the author's own artifacts (Parley modules and the widget libraries) - never third-party ones.
+  version below changes. Lists ONLY the author's own artifacts (Parley modules and the widget libraries) - never third-party ones,
+  and never applications built on Parley (parley-files-viewer, fsh, fsh-ide), which nothing depends on.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -47,6 +48,7 @@
   <properties>
     <!-- One line per module. Keep these in step with each module's released version. -->
     <parley-core.version>1.0.0-SNAPSHOT</parley-core.version>
+    <parley-brand.version>1.0.0-SNAPSHOT</parley-brand.version>
     <parley-io.version>1.0.0-SNAPSHOT</parley-io.version>
     <parley-net.version>1.0.0-SNAPSHOT</parley-net.version>
     <parley-ftp.version>1.0.0-SNAPSHOT</parley-ftp.version>
@@ -63,7 +65,6 @@
     <parley-files-jdbc.version>1.0.0-SNAPSHOT</parley-files-jdbc.version>
     <parley-files-swing.version>1.0.0-SNAPSHOT</parley-files-swing.version>
     <parley-files-fx.version>1.0.0-SNAPSHOT</parley-files-fx.version>
-    <parley-files-viewer.version>1.0.0-SNAPSHOT</parley-files-viewer.version>
     <!-- Widget libraries, published under us.bringardner (not us.bringardner.parley) -->
     <bringardner-swing-widgets.version>1.0.0-SNAPSHOT</bringardner-swing-widgets.version>
     <bringardner-fx-widgets.version>1.0.0-SNAPSHOT</bringardner-fx-widgets.version>
@@ -75,6 +76,11 @@
         <groupId>us.bringardner.parley</groupId>
         <artifactId>parley-core</artifactId>
         <version>${parley-core.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>us.bringardner.parley</groupId>
+        <artifactId>parley-brand</artifactId>
+        <version>${parley-brand.version}</version>
       </dependency>
       <dependency>
         <groupId>us.bringardner.parley</groupId>
@@ -155,11 +161,6 @@
         <groupId>us.bringardner.parley</groupId>
         <artifactId>parley-files-fx</artifactId>
         <version>${parley-files-fx.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>us.bringardner.parley</groupId>
-        <artifactId>parley-files-viewer</artifactId>
-        <version>${parley-files-viewer.version}</version>
       </dependency>
       <dependency>
         <groupId>us.bringardner</groupId>
