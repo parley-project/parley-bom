@@ -56,6 +56,7 @@
     <parley-smtp.version>1.0.0-SNAPSHOT</parley-smtp.version>
     <parley-imap.version>1.0.0-SNAPSHOT</parley-imap.version>
     <parley-pop3.version>1.0.0-SNAPSHOT</parley-pop3.version>
+    <parley-dap.version>1.0.0-SNAPSHOT</parley-dap.version>
     <parley-files.version>1.0.0-SNAPSHOT</parley-files.version>
     <parley-files-ftp.version>1.0.0-SNAPSHOT</parley-files-ftp.version>
     <parley-files-sftp.version>1.0.0-SNAPSHOT</parley-files-sftp.version>
@@ -119,6 +120,11 @@
         <groupId>us.bringardner.parley</groupId>
         <artifactId>parley-pop3</artifactId>
         <version>${parley-pop3.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>us.bringardner.parley</groupId>
+        <artifactId>parley-dap</artifactId>
+        <version>${parley-dap.version}</version>
       </dependency>
       <dependency>
         <groupId>us.bringardner.parley</groupId>
