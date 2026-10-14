@@ -38,7 +38,7 @@ Modules a Parley module brings in (parley-core, parley-net, ...) also get the BO
 ## What it covers
 
 parley-core, parley-io, parley-net, parley-files, parley-files-ftp, parley-files-sftp,
-parley-files-jdbc, parley-ftp, parley-dns, parley-ssh, parley-mail, parley-smtp, parley-imap,
+parley-files-jdbc, parley-credentials-keychain, parley-ftp, parley-dns, parley-ssh, parley-mail, parley-smtp, parley-imap,
 parley-pop3 and parley-dap.
 It lists only Parley's own artifacts, never third-party ones.
 

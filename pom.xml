@@ -65,6 +65,7 @@
     <parley-files-jdbc.version>1.0.0-SNAPSHOT</parley-files-jdbc.version>
     <parley-files-swing.version>1.0.0-SNAPSHOT</parley-files-swing.version>
     <parley-files-fx.version>1.0.0-SNAPSHOT</parley-files-fx.version>
+    <parley-credentials-keychain.version>1.0.0-SNAPSHOT</parley-credentials-keychain.version>
     <!-- Widget libraries, published under us.bringardner (not us.bringardner.parley) -->
     <bringardner-swing-widgets.version>1.0.0-SNAPSHOT</bringardner-swing-widgets.version>
     <bringardner-fx-widgets.version>1.0.0-SNAPSHOT</bringardner-fx-widgets.version>
@@ -161,6 +162,11 @@
         <groupId>us.bringardner.parley</groupId>
         <artifactId>parley-files-fx</artifactId>
         <version>${parley-files-fx.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>us.bringardner.parley</groupId>
+        <artifactId>parley-credentials-keychain</artifactId>
+        <version>${parley-credentials-keychain.version}</version>
       </dependency>
       <dependency>
         <groupId>us.bringardner</groupId>
