@@ -59,6 +59,7 @@
     <parley-imap.version>1.0.0</parley-imap.version>
     <parley-pop3.version>1.0.0</parley-pop3.version>
     <parley-dap.version>1.0.0</parley-dap.version>
+    <parley-loupe.version>1.0.0</parley-loupe.version>
     <parley-files.version>1.0.0</parley-files.version>
     <parley-files-ftp.version>1.0.0</parley-files-ftp.version>
     <parley-files-sftp.version>1.0.0</parley-files-sftp.version>
@@ -135,6 +136,11 @@
         <groupId>us.bringardner.parley</groupId>
         <artifactId>parley-dap</artifactId>
         <version>${parley-dap.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>us.bringardner.parley</groupId>
+        <artifactId>parley-loupe</artifactId>
+        <version>${parley-loupe.version}</version>
       </dependency>
       <dependency>
         <groupId>us.bringardner.parley</groupId>
