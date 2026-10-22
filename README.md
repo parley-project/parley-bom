@@ -14,7 +14,7 @@ Import the BOM once, then add Parley modules without versions:
         <dependency>
             <groupId>us.bringardner.parley</groupId>
             <artifactId>parley-bom</artifactId>
-            <version>1.0.0</version>
+            <version>2.0.0</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
@@ -46,5 +46,6 @@ It lists only Parley's own artifacts, never third-party ones.
 
 ## Maintaining it
 
-Each BOM release is a set tested together. When any module's version changes, update its property in
-`pom.xml` and release a new BOM.
+Starting with 2.0.0, all Parley modules share one version, set in parley-parent. The BOM has the
+same version and lists every Parley module at `${project.version}`, so there is nothing to update per
+module. Release the BOM along with the modules.
