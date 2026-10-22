@@ -70,6 +70,11 @@
       </dependency>
       <dependency>
         <groupId>us.bringardner.parley</groupId>
+        <artifactId>parley-term</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>us.bringardner.parley</groupId>
         <artifactId>parley-net</artifactId>
         <version>${project.version}</version>
       </dependency>
