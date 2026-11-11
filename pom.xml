@@ -60,6 +60,11 @@
       </dependency>
       <dependency>
         <groupId>us.bringardner.parley</groupId>
+        <artifactId>parley-logging</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>us.bringardner.parley</groupId>
         <artifactId>parley-brand</artifactId>
         <version>${project.version}</version>
       </dependency>
