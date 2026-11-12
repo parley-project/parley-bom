@@ -46,9 +46,8 @@
 
   <properties>
     <!-- Parley modules are versioned in lockstep: every managed parley-* version is ${project.version}. -->
-    <!-- Widget libraries, published under us.bringardner (not us.bringardner.parley) -->
+    <!-- Widget library, published under us.bringardner (not us.bringardner.parley) -->
     <bringardner-swing-widgets.version>1.0.0</bringardner-swing-widgets.version>
-    <bringardner-fx-widgets.version>1.0.0</bringardner-fx-widgets.version>
   </properties>
 
   <dependencyManagement>
@@ -170,11 +169,6 @@
       </dependency>
       <dependency>
         <groupId>us.bringardner.parley</groupId>
-        <artifactId>parley-files-fx</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>us.bringardner.parley</groupId>
         <artifactId>parley-credentials-keychain</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -182,11 +176,6 @@
         <groupId>us.bringardner</groupId>
         <artifactId>bringardner-swing-widgets</artifactId>
         <version>${bringardner-swing-widgets.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>us.bringardner</groupId>
-        <artifactId>bringardner-fx-widgets</artifactId>
-        <version>${bringardner-fx-widgets.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
