@@ -23,7 +23,7 @@
 
   Each BOM release is a tested-together set. Release a new BOM whenever any module
   version below changes. Lists ONLY the author's own artifacts (Parley modules and the widget libraries) - never third-party ones,
-  and never applications built on Parley (parley-files-viewer, fsh, fsh-ide), which nothing depends on.
+  and never applications built on Parley (parley-files-viewer, fsh, parley-fsh-studio), which nothing depends on.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
